@@ -1,0 +1,5 @@
+{$VIRTUAL_HOST} {
+  reverse_proxy vaultwarden:80
+  reverse_proxy /notifications/hub vaultwarden:3012
+}
+
